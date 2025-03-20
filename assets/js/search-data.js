@@ -109,9 +109,9 @@ ninja.data = [{
           description: "2025/03/13 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-ai-speech",
+          title: 'AI Speech',
+          description: "2025/03/20 (Thu) 19:00 대강당",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
