@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/photos/";
           },
-        },{id: "post-stylealigned",
+        },{id: "post-perceptual-loss",
+      
+        title: "Perceptual Loss",
+      
+      description: "Perceptual Losses for Real-Time Style Transfer and Super-Resolution",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/PerceptualLoss/";
+        
+      },
+    },{id: "post-stylealigned",
       
         title: "StyleAligned",
       
@@ -114,9 +125,9 @@ ninja.data = [{
           description: "2025/03/20 (Thu) 19:00 대강당",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-march-week-4-seminar",
+          title: 'March : Week 4 Seminar',
+          description: "2025/03/27 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
