@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/photos/";
           },
-        },{id: "post-perceptual-loss",
+        },{id: "post-saycan",
+      
+        title: "SayCan",
+      
+      description: "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/SayCan/";
+        
+      },
+    },{id: "post-r3m",
+      
+        title: "R3M",
+      
+      description: "R3M: A Universal Visual Representation for Robot Manipulation",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/R3M/";
+        
+      },
+    },{id: "post-perceptual-loss",
       
         title: "Perceptual Loss",
       
@@ -130,9 +152,9 @@ ninja.data = [{
           description: "2025/03/27 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-april-week-1-seminar",
+          title: 'April : Week 1 Seminar',
+          description: "2025/04/03 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
