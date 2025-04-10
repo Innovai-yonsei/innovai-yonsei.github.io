@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/photos/";
           },
-        },{id: "post-saycan",
+        },{id: "post-simclr",
+      
+        title: "SimCLR",
+      
+      description: "A Simple Framework for Contrastive Learning of Visual Representations",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/SimCLR/";
+        
+      },
+    },{id: "post-clip",
+      
+        title: "CLIP",
+      
+      description: "Learning Transferable Visual Models From Natural Language Supervision",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/CLIP/";
+        
+      },
+    },{id: "post-saycan",
       
         title: "SayCan",
       
@@ -157,9 +179,9 @@ ninja.data = [{
           description: "2025/04/03 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-april-week-2-seminar",
+          title: 'April : Week 2 Seminar',
+          description: "2025/04/10 (Thu) 19:00 D407",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
